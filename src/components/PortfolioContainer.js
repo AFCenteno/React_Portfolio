@@ -33,7 +33,7 @@ function Portfolio() {
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <div id='content' className='mt-5 ml-5'>
-        <div className="p-4">
+        <div className="container p-4">
           {renderPage()}
         </div>
       </div>

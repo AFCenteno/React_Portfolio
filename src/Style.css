@@ -6,9 +6,21 @@ html {
   width: 400px;
 }
 
+.pagetitle {
+  margin-bottom: 20px;
+}
+
 .aboutcontent {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: x-large;
+}
+
+.resumecontent {
+  margin-top: 20px;
+}
+
+.resumecontent li {
+  margin-top: 10px;
 }
 
 footer {
@@ -156,6 +168,11 @@ textarea {
     #content {
       height: fit-content;
     }
+
+    footer {
+      text-align: center;
+    }
+
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -174,6 +191,14 @@ textarea {
 
     #content {
       height: fit-content;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    .sociallink {
+      margin: 5px;
     }
   }
   
@@ -201,11 +226,15 @@ textarea {
     }
 
     .myphoto {
-      width: 250px;
+      width: 400px;
     }
 
     footer {
-      visibility: hidden;
+      text-align: center;
+    }
+
+    .sociallink {
+      margin: 5px;
     }
 
     #content {

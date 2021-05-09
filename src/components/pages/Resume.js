@@ -2,19 +2,27 @@ import React from "react";
 
 const Resume = () => (
   <div>
-    <h1>Resume</h1>
+    <h1 className='pagetitle'>My Resume</h1>
     <a href='https://1drv.ms/w/s!Amu3nVVt7sMheNwxX_TJW-kdLBQ?e=nUNOkH'><strong>Download Resume</strong></a>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
+    <p className='resumecontent'>
+      <strong>Front-end Proficiencies</strong>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>JQuery</li>
+      <li>Responsive Design</li>
+      <li>React</li>
+      <li>Bootstrap</li>
+
+      <br></br>
+
+      <strong>Back-end Proficiencies</strong>
+      <li>APIs</li>
+      <li>Node</li>
+      <li>Express</li>
+      <li>MySQL, Sequelize</li>
+      <li>MongoDB, Mongoose</li>
+      <li>REST</li>
     </p>
   </div>
 );

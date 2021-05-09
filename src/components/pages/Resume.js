@@ -1,8 +1,9 @@
 import React from "react";
 
-const Blog = () => (
+const Resume = () => (
   <div>
-    <h1>Blog Page</h1>
+    <h1>Resume</h1>
+    <a href='https://1drv.ms/w/s!Amu3nVVt7sMheNwxX_TJW-kdLBQ?e=nUNOkH'><strong>Download Resume</strong></a>
     <p>
       Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
       turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
@@ -18,4 +19,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Resume;

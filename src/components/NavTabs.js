@@ -1,9 +1,9 @@
 import React from 'react';
 
 function NavTabs(props) {
-  const tabs = ['Home', 'About', 'Blog', 'Contact'];
+  const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact'];
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a

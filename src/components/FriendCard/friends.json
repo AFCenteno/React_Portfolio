@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Jotter",
+    "deploy": "https://joterr.herokuapp.com",
+    "location": "first",
+    "gitlink": "https://github.com/mrafcent1/Jotter"
+  },
+  {
+    "id": 2,
+    "name": "SOD-X Calculator",
+    "deploy": "https://mrafcent94.github.io/SOD-X-Calculator/",
+    "location": "second",
+    "gitlink": "https://github.com/mrafcent94/SOD-X-Calculator"
+  },
+  {
+    "id": 3,
+    "name": "Tech-Linked",
+    "deploy": "https://tech-linked.herokuapp.com/",
+    "location": "third",
+    "gitlink": ""
+  },
+  {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "deploy": "https://mrafcent1.github.io/Weather-Dashboard/",
+    "location": "fourth",
+    "gitlink": "https://github.com/mrafcent1/Weather-Dashboard"
+  },
+  {
+    "id": 5,
+    "name": "Work Day Scheduler",
+    "deploy": "https://mrafcent1.github.io/Work-Day-Scheduler/",
+    "location": "fifth",
+    "gitlink": "https://github.com/mrafcent1/Work-Day-Scheduler"
+  },
+  {
+    "id": 6,
+    "name": "Budget Track",
+    "deploy": "https://save-the-money.herokuapp.com/",
+    "location": "sixth",
+    "gitlink": "https://github.com/mrafcent1/Budget_Track"
+  }
+]

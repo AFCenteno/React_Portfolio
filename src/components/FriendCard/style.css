@@ -1,0 +1,23 @@
+.card {
+  border-radius: 2px;
+  height: 150px;
+  margin: 5px;
+  position: relative;
+  width: 470px;
+  text-align: left;
+  background-color: transparent;
+  border-color: rgb(122, 39, 143);
+}
+
+strong {
+  font-size: x-large;
+}
+
+.content {
+  margin-right: 70px;
+  padding: 5px;
+}
+
+.content ul {
+  margin-top: 8px;
+}

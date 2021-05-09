@@ -6,13 +6,13 @@ This project is an updated portfolio built utilizing the the React library.
 With this Web application you can look through some of my work, know a bit about me, and even contact me through the built in contact form.
 
 ## Table of Contents
-* [Deployed-App](#Deployed App)
+* [Deployed-App](#Deployed-App)
 * [Install](#Install)
 * [Use](#Use)
 * [License](#License)
 * [Contribute](#Contribute)
 
-## Deployed App
+## Deployed-App
 https://alexc-portfolio.herokuapp.com/
 
 ## Install

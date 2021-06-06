@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Jotter",
-    "deploy": "https://joterr.herokuapp.com",
+    "name": "The Forex Journal",
+    "deploy": "https://acforex.herokuapp.com/",
     "location": "first",
-    "gitlink": "https://github.com/mrafcent1/Jotter"
+    "gitlink": "https://github.com/mrafcent1/Forex_Journal"
   },
   {
     "id": 2,

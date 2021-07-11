@@ -18,7 +18,6 @@ export default function Contact() {
 
   return (
     <div>
-    <h1 className='col-12 pagetitle'>Contact Me</h1>
     <form id='form' className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="to_name" value="Alex" />
       <input type="text" name="from_name" placeholder="Your Name" />

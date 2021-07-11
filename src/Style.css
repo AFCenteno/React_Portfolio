@@ -1,17 +1,14 @@
 html {
     background-image: url(./images/overallBackground.svg);
-}
+  }
 
-.myphoto {
-  width: 400px;
-}
 
 .pagetitle {
   margin-bottom: 20px;
 }
 
 .aboutcontent {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: x-large;
 }
 
@@ -20,15 +17,17 @@ html {
 }
 
 .resumecontent li {
-  margin-top: 10px;
+  margin-top: 12px;
+  margin-left: 70px;
+  text-align: left;
 }
 
 footer {
-  margin: 40px
+  margin-top: 20px;
 }
 
 #footerrow {
- justify-content: center;
+  justify-content: center;
 }
 
 header h1 {
@@ -61,9 +60,7 @@ header ul li a:hover {
 }
 
 #content {
-    background-image: url(./images/contentBackground.svg);
-    background-position: center;
-    height: 1000px;
+    background: url(./images/contentBackground.svg);
     text-align: center;
 }
  
@@ -117,141 +114,80 @@ textarea {
   background-color: rgb(122, 39, 143);
 }
 
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 980px) {
-    header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-    }
-  
-    header h1 {
-      width: 100%;
-      text-align: center;
-    }
-  
-    header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-    }
-  
-    header nav ul li a {
-      font-size: 20px;
-    }
-  
-    footer h2 {
-      text-align: center;
-      width: 100%;
-    }
-  
-    .hero-sub, .hero-form {
-      width: 100%;
-    }
-    
-    .hero-sub {
-      text-align: center;
-    }
-  
-    .section-title {
-      width: 80%;
-    }
-    
-    .work {
-      flex: 0 70%;
-    }
-    
-    .contact-info iframe{
-      flex: 1 100%;
-    }
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
 
-    #content {
-      height: fit-content;
-    }
-
-    footer {
-      text-align: center;
-    }
-
+  header h1 {
+    margin-top: 20px;
+    margin-left: 63px;
   }
-  
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-    section {
-      padding: 30px 15px;
-    }
-  
-    .work-img h3, .work-img h4, .work-img::after {
-      display: none;
-    }
-  
-    .work-info h3, .work-info h4 {
-      display: block;
-    }
 
-    #content {
-      height: fit-content;
-    }
-
-    footer {
-      text-align: center;
-    }
-
-    .sociallink {
-      margin: 5px;
-    }
+  header a {
+    margin-left: 10px;
   }
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
 
-    .section-title {
-      width: 95%;
-    }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .work {
-      flex: 0 100%;
-    }
-  
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
+  header ul {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 2px;
+    justify-content: center;
+  }
 
-    .myphoto {
-      width: 400px;
-    }
+  #content {
+   margin-top: 20px;
+   padding: 10px;
+  }
 
-    footer {
-      text-align: center;
-    }
+  .section-title {
+    width: 95%;
+  }
 
-    .sociallink {
-      margin: 5px;
-    }
+  .intro p {
+    width: 100%;
+  }
 
-    #content {
-      height: fit-content;
-    }
+  .work {
+    flex: 0 100%;
+  }
 
-    .card {
-      width: 290px;
-      background-position-x: center;
-      background-position-y: center;
-    }
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .myphoto {
+    width: 80%;
+    margin-left: 10%;
+    
+  }
+
+  #RESDL {
+    color: rgb(122, 39, 143);
+    
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .sociallink {
+    margin: 5px;
+  }
+
+  .card {
+    width: 97%;
+    background-position-x: center;
+    background-position-y: center;
+  }
 
   form input {
-    width: 350px;
+    width: 95%;
   }
 
   form textarea {
-    width: 350px;
+    width: 95%;
   }
 }

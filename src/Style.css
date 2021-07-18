@@ -4,14 +4,15 @@ html {
   }
 
 .myphoto {
-  width: 60%;
+  width: 30%;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-left: 35%;
 }
 
 .aboutcontent {
   margin-top: 20px;
-  font-size: 20px;
+  margin-left: 10px;
+  font-size: 32px;
 }
 
 .dlink {
@@ -30,7 +31,7 @@ html {
 
 .resumecontent li {
   margin-top: 12px;
-  margin-left: 70px;
+  margin-left: 40%;
   text-align: left;
 }
 
@@ -89,18 +90,16 @@ header ul li a:hover {
     color: rgb(122, 39, 143);
 }
 
-#form {
-  margin-top: 10px;
+form input {
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-input {
-  width: 600px;
-  margin-bottom: 10px;
-}
-
-textarea {
+form textarea {
+  width: 95%;
   height: 10em;
-  width: 600px;
+  margin-top: 5px;
 }
 
 #first {
@@ -146,6 +145,19 @@ textarea {
     justify-content: center;
   }
 
+  .myphoto {
+    width: 60%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .aboutcontent {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-size: 20px;
+  }
+
   #content {
    margin-top: 20px;
    padding: 10px;
@@ -182,12 +194,16 @@ textarea {
     background-position-y: center;
   }
 
+  .resumecontent li {
+    margin-left: 70px;
+  }
+
   form input {
-    width: 95%;
+    margin-top: 5px;
   }
 
   form textarea {
-    width: 95%;
+    margin-top: 5px;
   }
 }
 

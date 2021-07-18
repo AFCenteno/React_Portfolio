@@ -15,30 +15,9 @@
   },
   {
     "id": 3,
-    "name": "Tech-Linked",
-    "deploy": "https://tech-linked.herokuapp.com/",
-    "location": "third",
-    "gitlink": ""
-  },
-  {
-    "id": 4,
-    "name": "Weather Dashboard",
-    "deploy": "https://mrafcent1.github.io/Weather-Dashboard/",
-    "location": "fourth",
-    "gitlink": "https://github.com/mrafcent1/Weather-Dashboard"
-  },
-  {
-    "id": 5,
     "name": "Work Day Scheduler",
     "deploy": "https://mrafcent1.github.io/Work-Day-Scheduler/",
     "location": "fifth",
     "gitlink": "https://github.com/mrafcent1/Work-Day-Scheduler"
-  },
-  {
-    "id": 6,
-    "name": "Budget Track",
-    "deploy": "https://save-the-money.herokuapp.com/",
-    "location": "sixth",
-    "gitlink": "https://github.com/mrafcent1/Budget_Track"
   }
 ]

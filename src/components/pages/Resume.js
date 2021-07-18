@@ -2,7 +2,9 @@ import React from "react";
 
 const Resume = () => (
   <div>
-    <a href='https://1drv.ms/w/s!Amu3nVVt7sMheNwxX_TJW-kdLBQ?e=nUNOkH' target="_blank"><strong id="RESDL">Download Resume</strong></a>
+    <div className="dlink">
+      <a id="RESDL" href='https://1drv.ms/w/s!Amu3nVVt7sMheNwxX_TJW-kdLBQ?e=nUNOkH' target="_blank"><strong>Download Resume</strong></a>
+    </div>
     <p className='resumecontent'>
       <strong>Front-end Proficiencies</strong>
       <li>HTML</li>

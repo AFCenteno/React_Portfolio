@@ -23,7 +23,7 @@ export default function Contact() {
       <input type="text" name="from_name" placeholder="Your Name" />
       <input type="email" name="user_email" placeholder="Your Email" />
       <textarea name="message" placeholder="Enter Message" />
-      <input id="send" type="submit" value="Send" />
+      <input id="send" type="submit"/>
     </form>
     </div>  
   );
